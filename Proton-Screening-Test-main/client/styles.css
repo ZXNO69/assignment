@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: nue;
+    src: url(Nue/NeueMachina-Regular.otf);
+}
+
+@font-face {
+    font-family: nuebold;
+    src: url(Nue/NeueMachina-Ultrabold.otf);
+}
+
+@font-face {
+    font-family: HKMed;
+    src: url(HKGrotesk_3001/OTF/HKGrotesk-Medium.otf);
+}
+
+@font-face {
+    font-family: HKRegular;
+    src: url(HKGrotesk_3001/OTF/HKGrotesk-Regular.otf);
+}
+
+body {
+    background-color: #000000;
+}
+
+.header {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: nuebold;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    display: flex;
+    margin-top: 90px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+
+.main h1 {
+    font-family: HKMed;
+    color: white;
+    margin-left: 30px;
+    font-size: 70px;
+    display: inline-block;
+    margin-top: 90px;
+    
+   
+}
+
+.main .box {
+    margin-left: 250px;
+    position: relative;
+    top: 20px;
+   
+}
+
+.box{
+    height: 250px;
+}
+
+#para {
+    color: white;
+    text-align: right;
+    margin-right: 170px;
+  
+    margin-top: 40px; 
+    font-family: HKRegular;
+}
+
+
+.box img{
+    width: 400px;
+    height: 600px;
+    display: inline;
+    position: relative;
+    bottom: 200px;
+}
+
+
+#btn{
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 20px;
+    color:white;
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+#btn:hover{
+    background-color: grey;
+}
+
